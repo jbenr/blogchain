@@ -19,10 +19,6 @@ export default function Home({ allPostsData }) {
         </p>
       </section>
 
-      <textarea id="posturize" name="w3review" rows="10" cols="75">
-        Miller Mac.
-      </textarea>
-
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>

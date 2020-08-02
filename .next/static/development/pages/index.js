@@ -23666,23 +23666,12 @@ function Home(_ref) {
       lineNumber: 17,
       columnNumber: 9
     }
-  }, "This is our blog - in light of Covid-19 and in order to do our part in socially distancing, we'll be using this as our virtual discussion board in place of in person Blockchain @ IU meetings.")), __jsx("textarea", {
-    id: "posturize",
-    name: "w3review",
-    rows: "10",
-    cols: "75",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, "Miller Mac."), __jsx("section", {
+  }, "This is our blog - in light of Covid-19 and in order to do our part in socially distancing, we'll be using this as our virtual discussion board in place of in person Blockchain @ IU meetings.")), __jsx("section", {
     className: "".concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd, " ").concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.padding1px),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 22,
       columnNumber: 7
     }
   }, __jsx("h2", {
@@ -23690,7 +23679,7 @@ function Home(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 23,
       columnNumber: 9
     }
   }, "Blog"), __jsx("ul", {
@@ -23698,7 +23687,7 @@ function Home(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 24,
       columnNumber: 9
     }
   }, allPostsData.map(function (_ref2) {
@@ -23711,7 +23700,7 @@ function Home(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 26,
         columnNumber: 13
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -23720,21 +23709,21 @@ function Home(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 27,
         columnNumber: 13
       }
     }, __jsx("a", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 28,
         columnNumber: 15
       }
     }, title)), __jsx("br", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 30,
         columnNumber: 13
       }
     }), __jsx("small", {
@@ -23742,7 +23731,7 @@ function Home(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 31,
         columnNumber: 13
       }
     }, __jsx(_components_date__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -23750,7 +23739,7 @@ function Home(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 32,
         columnNumber: 15
       }
     })));
@@ -23820,7 +23809,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fbenjamin%2Fschool%2Fblogchain%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************/
@@ -23843,5 +23832,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

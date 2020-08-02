@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2208,23 +2208,12 @@ function Home({
       lineNumber: 17,
       columnNumber: 9
     }
-  }, "This is our blog - in light of Covid-19 and in order to do our part in socially distancing, we'll be using this as our virtual discussion board in place of in person Blockchain @ IU meetings.")), __jsx("textarea", {
-    id: "posturize",
-    name: "w3review",
-    rows: "10",
-    cols: "75",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, "Miller Mac."), __jsx("section", {
+  }, "This is our blog - in light of Covid-19 and in order to do our part in socially distancing, we'll be using this as our virtual discussion board in place of in person Blockchain @ IU meetings.")), __jsx("section", {
     className: `${_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd} ${_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.padding1px}`,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 22,
       columnNumber: 7
     }
   }, __jsx("h2", {
@@ -2232,7 +2221,7 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 23,
       columnNumber: 9
     }
   }, "Blog"), __jsx("ul", {
@@ -2240,7 +2229,7 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 24,
       columnNumber: 9
     }
   }, allPostsData.map(({
@@ -2253,7 +2242,7 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 26,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -2262,21 +2251,21 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 27,
       columnNumber: 13
     }
   }, __jsx("a", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 28,
       columnNumber: 15
     }
   }, title)), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 30,
       columnNumber: 13
     }
   }), __jsx("small", {
@@ -2284,7 +2273,7 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 31,
       columnNumber: 13
     }
   }, __jsx(_components_date__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -2292,7 +2281,7 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 32,
       columnNumber: 15
     }
   })))))));
@@ -2331,7 +2320,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
