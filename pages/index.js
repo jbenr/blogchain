@@ -18,6 +18,11 @@ export default function Home({ allPostsData }) {
           This is our blog - in light of Covid-19 and in order to do our part in socially distancing, we'll be using this as our virtual discussion board in place of in person Blockchain @ IU meetings.
         </p>
       </section>
+
+      <textarea id="posturize" name="w3review" rows="10" cols="75">
+        Miller Mac.
+      </textarea>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
@@ -34,6 +39,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+
     </Layout>
   )
 }
