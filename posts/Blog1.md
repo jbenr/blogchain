@@ -1,6 +1,6 @@
 ---
 title: 'Decentralized Lending Tokens'
-date: '2020-08-17’'
+date: '2020-08-17'
 ---
 A buzzword that has been popping up more recently in the crypto community is DeFi (decentralized finance). Many new tokens have been created to provide lending, payment, and trading solutions through their blockchains.
 
