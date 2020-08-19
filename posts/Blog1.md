@@ -2,6 +2,7 @@
 title: 'Decentralized Lending Tokens'
 date: '2020-08-17'
 ---
+
 A buzzword that has been popping up more recently in the crypto community is DeFi (decentralized finance). Many new tokens have been created to provide lending, payment, and trading solutions through their blockchains.
 
 One of my favorite new tokens is Compound Token. I’ve spent a fair amount of time reading over the white paper and using the ecosystem. I’m going to explain how Compound works in a slightly more general sense so you can have a better understanding of how most of these DeFi coins work.
