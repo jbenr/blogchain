@@ -12,6 +12,11 @@ export default function Home({ allPostsData }) {
         <title>Blogchain@IU</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <section>
+        <Link href="/posts/calendar">
+          <a>Calendar</a>
+        </Link>
+      </section>
       <section className={utilStyles.headingMd}>
         <p>Welcome to Blogchain @ IU</p>
         <p>
