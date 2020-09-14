@@ -54,3 +54,9 @@ footer a:hover {
 #__next-prerender-indicator {
   display: none;
 }
+
+h3 span {
+  background-color: rgb(204,1,1);
+  color: white;
+  padding: .25em .5em;
+}

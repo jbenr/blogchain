@@ -5,37 +5,39 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 
+
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>Blogchain@IU</title>
+        <title>Blockchain@IU</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Welcome to Blogchain @ IU</p>
-        <p>
-          This is our blog - in light of Covid-19 and in order to do our part in socially distancing, we'll be using this as our virtual discussion board in place of in person Blockchain @ IU meetings.
-        </p>
+      <Link href="posts/blog">
+        <a>Blog</a>
+      </Link>
+      <br />
+      <Link href="posts/calendar">
+        <a>Calendar</a>
+      </Link>
+      <div className={utilStyles.aboutSection}>
+        <h3><span>About</span></h3>
+        <p className={utilStyles.aboutText}>We are a collegiate organization dedicated to sharing knowledge about blockchain and cryptocurrency. Throughout the year, we do events, case competitions, a weekly blog, host courses and more—our goal is to educate the community about Blockchain's ability to create value in society and bring about positive social change, and its potential to disrupt industries across the business world in the future. We are Blockchain@IU.</p>
+      </div>
+      <h3><span>Upcoming Events</span></h3>
+      <div className={utilStyles.event}>
+        <h3>Blockchain 101</h3>
+        <p>Description of this event here Description of this event here Description of this event here Description of this event here </p>
+        <p><b>Date:</b> September 15, 2020</p>
+        <p><b>Location: </b>Zoom - url here</p>
+      </div>
+      <h3><span>Follow Us:</span></h3>
+      <a href="https://linktr.ee/blockchainIU" target="_blank">
+        <img src="/linkIcon.png"
+             style={{ width: '20rem', height: '3rem', marginBottom: "1rem"}} />
+      </a>
       </section>
-
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href="/posts/[id]" as={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
-        </ul>
-      </section>
-
     </Layout>
   )
 }

@@ -50,3 +50,24 @@
 .lightText {
   color: #999;
 }
+
+.aboutText {
+  font-size: .9em;
+}
+
+.aboutSection {
+  padding-bottom: 1em;
+}
+.aboutText {
+  border-left: 10px rgb(207, 0, 0) solid;
+  padding-left: 1em;
+  padding: 1em;
+  background-color: rgba(0,0,0,.05);
+}
+.event {
+  border-left: black solid 6px;
+  padding: 0 1em;
+}
+.event h3, .event p {
+  margin: .2em;
+}
