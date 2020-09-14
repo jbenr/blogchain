@@ -11,7 +11,7 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        
+
       </Head>
 
       <header className={styles.header}>
@@ -46,15 +46,15 @@ export default function Layout({ children, home }) {
 
       <main>{children}</main>
       {!home && (
-        
+
         <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
+          <Link href="/posts/blog">
+            <a>← Back to Blog</a>
           </Link>
         </div>
-        
+
       )}
-      
+
       <footer>
         <a
           href="https://github.com/jbenr"

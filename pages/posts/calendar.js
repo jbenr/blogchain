@@ -58,8 +58,8 @@ class BigCalendar extends Component {
       {
           id: 2,
           title: 'Blockchain 101',
-          start: new Date(2020, 8, 15, 17, 0),
-          end: new Date(2020, 8, 15, 18, 30),
+          start: new Date(2020, 8, 15, 19, 30),
+          end: new Date(2020, 8, 15, 20, 15),
           description: 'Introduction to Blockchain@IU and blockchain technology',
           image: <img src="/favicon.png" style={{width: 30, height: 30, marginRight: 5}} />
       },
@@ -124,7 +124,7 @@ class BigCalendar extends Component {
             Blockchain@IU Calendar
           </h2>
           <div style={{ width: 500 }}></div>
-          <a href="https://linktr.ee/blockchainIU">
+          <a href="https://linktr.ee/blockchainIU" target="_blank">
             <img src="/linkIcon.png"
                  style={{ width: '20rem', height: '3rem'}} />
           </a>
