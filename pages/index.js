@@ -12,6 +12,26 @@ export default function Home({ allPostsData }) {
         <title>Blogchain@IU</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
+
+      <div class="outer-menu">
+        <input class="checkbox-toggle" type="checkbox" />
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a class="a" href="#">Home</a></li>
+                <li><a class="a" href="https://blogchain.vercel.app/">Blog</a></li>
+                <li><a class="a" href="#">Calendar</a></li>
+                <li><a class="a" href="#">Resources</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section className={utilStyles.headingMd}>
         <p>Welcome to Blogchain @ IU</p>
         <p>
@@ -20,18 +40,18 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Blog Posts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-            <Link href="/posts/[id]" as={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
+              <Link href="/posts/[id]" as={`/posts/${id}`}>
+                <a class="link">{title}</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
           ))}
         </ul>
       </section>
